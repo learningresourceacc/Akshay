@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
@@ -15,6 +16,14 @@ public class CustomExceptionHandler{
 	public ResponseEntity<Object> handleResourceNotFoundException(ResourceNotFoundException exception) {
 		CustomExceptionClass object=
 				new CustomExceptionClass(exception.getMessage(),"Resource you try to access is not Found",LocalDateTime.now());
+		
+		return new ResponseEntity<Object>(object,HttpStatus.NOT_FOUND);
+	}
+	
+	@ExceptionHandler(UsernameNotFoundException.class)
+	public ResponseEntity<Object> handleUserNameNotFoundException(UsernameNotFoundException exception) {
+		CustomExceptionClass object=
+				new CustomExceptionClass(exception.getMessage(),"Username does not exist in database",LocalDateTime.now());
 		
 		return new ResponseEntity<Object>(object,HttpStatus.NOT_FOUND);
 	}
