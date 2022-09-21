@@ -31,7 +31,7 @@ public class CustomSecurity extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 		http.csrf().disable()
 		.authorizeRequests()
-		.antMatchers("/users/getAllUsers").authenticated()
+		.antMatchers("/users/getAllUsers").hasRole("ADMIN")
 		.and()
 		.formLogin();
 	}
