@@ -1,5 +1,7 @@
 Instructor and Course class are used for ManyToOne mapping example
 
+Department and Sections are used for OneToMany mapping
+
 Laptop and hardisk are using for OnetoOne Mapping
 
 Person and Movie are used for Many to Many relationship
