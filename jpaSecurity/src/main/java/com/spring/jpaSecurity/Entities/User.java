@@ -1,8 +1,10 @@
 package com.spring.jpaSecurity.Entities;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.UniqueConstraint;
 
 @Entity
 public class User {
@@ -11,6 +13,7 @@ public class User {
 	@GeneratedValue
 	private long id;
 	
+	@Column(unique=true)
 	private String username;
 	
 	private String password;

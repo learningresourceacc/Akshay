@@ -15,21 +15,25 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 @EnableWebSecurity
 public class CustomSecurity extends WebSecurityConfigurerAdapter {
 	
-//	@Autowired
-//	UserDetailsService userDetailsService;
-//	
-//	@Bean
-//	public AuthenticationProvider authProvider() {
-//		DaoAuthenticationProvider provider=new DaoAuthenticationProvider();
-//		provider.setUserDetailsService(userDetailsService);
-//		provider.setPasswordEncoder(new BCryptPasswordEncoder());
-//		return provider;
-//	}
-//	
+	@Autowired
+	UserDetailsService userDetailsService;
+	
+	@Bean
+	public AuthenticationProvider authProvider() {
+		DaoAuthenticationProvider provider=new DaoAuthenticationProvider();
+		provider.setUserDetailsService(userDetailsService);
+		provider.setPasswordEncoder(new BCryptPasswordEncoder());
+		return provider;
+	}
+	
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-		http.csrf().disable();
+		http.csrf().disable()
+		.authorizeRequests()
+		.antMatchers("/users/getAllUsers").authenticated()
+		.and()
+		.formLogin();
 	}
 
 }
