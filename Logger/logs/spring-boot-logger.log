@@ -1,0 +1,73 @@
+2022-09-27 15:07:25,157 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggerApplication using Java 17.0.4.1 on Unity with PID 15124 (D:\Github\Akshay\Logger\target\classes started by dbyak in D:\Github\Akshay\Logger)
+2022-09-27 15:07:25,160 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:07:25,343 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:07:25,345 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-27 15:07:25,346 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.23]
+2022-09-27 15:07:25,372 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-27 15:07:25,372 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 209 ms
+2022-09-27 15:07:25,506 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-27 15:07:25,529 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:07:25,534 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggerApplication in 0.488 seconds (process running for 296.633)
+2022-09-27 15:07:25,536 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-09-27 15:07:44,807 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 15:07:44,809 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-27 15:07:44,811 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-09-27 15:10:20,770 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggerApplication using Java 17.0.4.1 on Unity with PID 5972 (D:\Github\Akshay\Logger\target\classes started by dbyak in D:\Github\Akshay\Logger)
+2022-09-27 15:10:20,775 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:10:20,837 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-27 15:10:20,838 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-27 15:10:21,912 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:10:21,925 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-27 15:10:21,925 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-27 15:10:21,925 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.23]
+2022-09-27 15:10:21,983 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-27 15:10:21,985 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1143 ms
+2022-09-27 15:10:22,383 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-27 15:10:22,398 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-27 15:10:22,437 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:10:22,447 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggerApplication in 2.088 seconds (process running for 2.546)
+2022-09-27 15:13:14,625 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:13:14,651 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2022-09-27 15:13:14,652 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2022-09-27 15:13:14,661 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2022-09-27 15:13:14,665 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2022-09-27 15:13:14,730 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggerApplication using Java 17.0.4.1 on Unity with PID 5972 (D:\Github\Akshay\Logger\target\classes started by dbyak in D:\Github\Akshay\Logger)
+2022-09-27 15:13:14,730 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:13:14,905 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:13:14,906 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-27 15:13:14,907 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-27 15:13:14,908 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.23]
+2022-09-27 15:13:14,923 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-27 15:13:14,923 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 190 ms
+2022-09-27 15:13:15,001 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-27 15:13:15,006 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-27 15:13:15,015 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:13:15,020 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggerApplication in 0.324 seconds (process running for 175.119)
+2022-09-27 15:13:15,025 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-09-27 15:13:23,121 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 15:13:23,122 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-27 15:13:23,122 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-09-27 15:13:23,157 TRACE com.prcatice.Logger.Controllers.LoggingController [http-nio-8080-exec-1] A TRACE Message
+2022-09-27 15:13:23,158 DEBUG com.prcatice.Logger.Controllers.LoggingController [http-nio-8080-exec-1] A DEBUG Message
+2022-09-27 15:13:23,158 INFO com.prcatice.Logger.Controllers.LoggingController [http-nio-8080-exec-1] An INFO Message
+2022-09-27 15:13:23,158 WARN com.prcatice.Logger.Controllers.LoggingController [http-nio-8080-exec-1] A WARN Message
+2022-09-27 15:13:23,158 ERROR com.prcatice.Logger.Controllers.LoggingController [http-nio-8080-exec-1] An ERROR Message
+2022-09-27 15:26:59,790 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
+2022-09-27 15:26:59,812 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Pausing ProtocolHandler ["http-nio-8080"]
+2022-09-27 15:26:59,812 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Stopping service [Tomcat]
+2022-09-27 15:26:59,814 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 15:26:59,817 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Stopping ProtocolHandler ["http-nio-8080"]
+2022-09-27 15:26:59,823 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Destroying ProtocolHandler ["http-nio-8080"]
+2022-09-27 15:26:59,999 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggerApplication using Java 17.0.4.1 on Unity with PID 5972 (D:\Github\Akshay\Logger\target\classes started by dbyak in D:\Github\Akshay\Logger)
+2022-09-27 15:26:59,999 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:27:00,275 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:27:00,276 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-27 15:27:00,277 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-27 15:27:00,277 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.23]
+2022-09-27 15:27:00,301 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-27 15:27:00,301 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 298 ms
+2022-09-27 15:27:00,392 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-27 15:27:00,396 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-27 15:27:00,403 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:27:00,406 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggerApplication in 0.499 seconds (process running for 1000.505)
+2022-09-27 15:27:00,407 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
